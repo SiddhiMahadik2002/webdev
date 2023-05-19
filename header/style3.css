@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content: space-between;  
+    align-items: center;
+    background:rgba(23, 23, 23, 0.741);
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+
+.menu{
+    display:flex;
+    align-items: center;
+}
+
+.menu>p{
+    margin:0px 30px;
+    font-size:20px;
+    font-weight: 600;
+}
+button{
+    padding:10px;
+    font-size:20px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: rgba(239, 58, 109, 0.958);
+    border:none;
+   cursor: pointer;
+   color:white;
+   font-family: sans-serif;
+
+}
