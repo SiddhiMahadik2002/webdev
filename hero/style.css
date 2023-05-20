@@ -5,11 +5,12 @@ body {
 }
 .main{
     text-align: center;
-    background:hsl(150deg 20% 96.08%);
+      background:hsl(150deg 20% 96.08%); 
     padding:30px 0px;
     margin:30px;
     border-radius: 20px;
-  
+    
+   
 }
 
 .div1{
@@ -54,6 +55,7 @@ button{
    
 }
 .btn1:hover{
+    
     background-color:white;
     color:black;
     transition: all 500ms ease-in-out;

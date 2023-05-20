@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    padding:0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-se2222222222222222222222222222222222222222222222222rif;
+}
+.main{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/531879/pexels-photo-531879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:70px;
+    /* padding:20px; */
+    /* height:60vh;  */
+    
+}
+.overlay{
+    height:100% !important;
+    background-color: rgba(0, 0, 0, 0.606);
+    
+}
+.div1{
+    padding: 40px 0px;
+  
+}
+.active{
+    background-color: white !important;
+    color:black !important;
+}
+.div1>button{
+    background-color: rgba(2, 2, 2, 0.458);
+    color:white;
+    border-radius:50px;
+    border:none;
+    padding: 16px 20px;
+    margin-right:15px;
+    font-weight: 500;
+    font-size:16px;
+}
+
+.div1>button:hover{
+    background-color:white;
+    color:black;
+    transition: all 500ms ease-in-out;
+}
+
+.div2{
+    font-size: 30px;
+    color:white;
+    font-weight: 600;
+    margin:20px 0px;
+}
+
+.div3{
+    color:white;
+    font-weight: 400;
+    margin:20px 0px;
+
+}
+
+
+.div4>input{
+    width:35%;
+    border-radius: 50px;
+   outline: none;
+    padding:20px;
+    margin:20px 0px;
+
+    
+}
+
+.div5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px;
+   padding-bottom: 80px;
+    
+}
+.small{
+    
+    color:white;
+    margin-right:10px;
+    font-size:12px;
+}
+.large >button{
+    background-color: rgba(255, 255, 255, 0.045);
+    color:white;
+    
+    border-radius:50px;
+    border:1px solid white;
+    padding: 10px 15px;
+    margin-right:10px;
+    font-weight: 500;
+    font-size:15px;
+}
