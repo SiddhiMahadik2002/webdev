@@ -158,3 +158,65 @@ header{
     font-weight: 500;
     font-size:15px;
 }
+.blogMain{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin:70px;
+    }
+    
+    
+.innerdiv1{
+    width:100%;
+}
+.innerdiv1>img{
+    width:100%;
+    border-radius: 10px;
+}
+
+
+.innerdiv2{
+    width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerdiv2>.name>img{
+    width:20px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.name{
+    display:flex;
+    align-items: center;
+    
+}
+.name>ion-icon{
+    font-size: 25px;
+}
+.name>p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.likes{
+    display:flex;
+    align-items: center;
+}
+.likes>ion-icon{
+    margin-right: 5px;
+}
+
+.num{
+    margin-right: 10px;
+}
+
+ion-icon{
+    color:#9e9ea7;
+}
+
+.likes>ion-icon:hover{
+    color:#ea4c89;
+
+}
