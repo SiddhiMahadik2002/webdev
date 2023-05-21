@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
+
+
+
 
 *{
     padding:0;
@@ -8,14 +12,70 @@
 body {
   font-family: 'Poppins', sans-se2222222222222222222222222222222222222222222222222rif;
 }
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:20px 20px 0px 20px;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu>h4{
+    font-family: 'Great Vibes', handwriting;
+    font-size: 30px;
+    margin:0px 15px;
+ 
+}
+.menu>p{
+    margin:0px 15px;
+    font-size:14px;
+    font-weight: 600;
+    color: #6e6d7a;
+
+}
+.menu>p:hover{
+    
+   
+    color:black;
+    transition: all 500ms ease-in-out;
+}
+.login{
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.signin{
+    color: #6e6d7a;
+    font-size: 16px;
+    margin:0px 15px;
+}
+.signup{
+    border-radius: 10px;
+   background-color: #ea4c89;
+   border:none;
+   padding:10px 16px;
+   font-size: 14px;
+   color:white;
+   font-weight: 600;
+   cursor: pointer;
+    
+}
+.signup:hover{
+    background-color: #ea4c89b6;
+}
+
+
+
 .main{
     text-align: center;
     background-image: url(https://images.pexels.com/photos/531879/pexels-photo-531879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top:70px;
-    /* padding:20px; */
-    /* height:60vh;  */
+    margin-top:20px;
+    
     
 }
 .overlay{
