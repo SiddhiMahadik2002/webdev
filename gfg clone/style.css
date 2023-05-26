@@ -73,35 +73,34 @@ ion-icon{
      font-size:16px;
      color:#00000099
 }
+
 .right{
-    width:40%;
-    display:flex;
-   
-   padding:5px 0px;
-    
-}
-.right>input{
-    width:500px;
-    
-    
-    background-color: #fff;
-    outline-color: #fff;
-    border:none;
-    border-radius: 5px 0px 0px 5px;
-    color:grey;
+    display: flex;
+    align-items: center;
+    width: 30%;
 }
 
-.right>button{
-   
-    background-color: #61b776;
-    border:none;
-    border-radius: 0px 5px 5px 0px;
-    color:white;
-    
-    cursor:pointer;
+.right > input{
+    width: 50% ;
+    padding: 10px 15px;
+    border: none;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
 }
-.right>ion-icon{
-    align-items: center;
+
+.right > button{
+    width: 20% ;
+    padding: 10px 15px;
+    border: none;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    color: white;
+    background-color: #2f8d46;
+    cursor: pointer;
 }
 
 
