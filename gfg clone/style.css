@@ -52,10 +52,13 @@ ion-icon{
     border-radius: 5px;
     cursor: pointer;
 }
+.main{
+    background: rgb(144,218,162);
+background: linear-gradient(180deg, rgba(144,218,162,1) 0%, rgba(255,255,255,1) 100%);
+}
+
 .heroarea{
-    background: linear-gradient(180deg,#90daa2,transparent);
-    /* background-size: 100vw 70vh!important;
-    background-repeat: no-repeat; */
+    
     display:flex;
     justify-content: space-around;
     padding:28px 0px 0px;
@@ -100,6 +103,19 @@ ion-icon{
     color: white;
     background-color: #35864ab0;
     cursor: pointer;
+ 
 }
 
+.cardsarea{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+.div1{
+    width:70%;
+    align-items: center;
+    background: #fff;
+
+}
 
