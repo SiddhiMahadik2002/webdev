@@ -245,11 +245,7 @@ ion-icon {
 
 /* course category */
 .cardsarea2 {
-
-
-
- 
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .cards2 {
@@ -257,7 +253,7 @@ ion-icon {
     padding:0px 14px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 15px;
 
@@ -307,4 +303,15 @@ ion-icon {
 }
 .indiv8{
     background-color: #f7a968f3;
+}
+
+/* self placed */
+.cardsarea3{
+    margin-top: 30px;
+}
+
+/*  live courses 
+ */ 
+ .cardsarea4{
+    margin-top: 30px;
 }
