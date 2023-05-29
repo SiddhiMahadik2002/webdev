@@ -315,3 +315,19 @@ ion-icon {
  .cardsarea4{
     margin-top: 30px;
 }
+
+/* free course */
+.cardsarea5{
+    margin-top: 30px;
+}
+
+/* card img */
+.blogmainimg{
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        
+}
