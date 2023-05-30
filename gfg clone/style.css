@@ -329,9 +329,10 @@ ion-icon {
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 25px;
         grid-row-gap: 25px;
-        
+        margin:20px;
 }
-.cardimg{
-    width: 100%;
-    height: 150px;
+
+.cardimg>img{
+    width:100%;
+    border-radius: 10px;
 }
