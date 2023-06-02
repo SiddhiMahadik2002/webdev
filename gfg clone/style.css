@@ -337,3 +337,10 @@ ion-icon {
     border-radius: 10px;
 }
 /* footer */
+.mainfoot{
+    display:flex;
+}
+
+.logohead>img{
+    width:40px;
+}
