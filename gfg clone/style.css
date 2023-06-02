@@ -36,9 +36,11 @@ header {
     align-items: center;
 }
 
-.logo {
-    align-items: center;
-
+.logo >img{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+    width:70px;
 }
 
 ion-icon {
@@ -338,9 +340,21 @@ ion-icon {
 }
 /* footer */
 .mainfoot{
+
+    display:flex;
+    margin-top:50px;
+    /* justify-content: space-between; */
+}
+.logohead{
     display:flex;
 }
 
 .logohead>img{
     width:40px;
+}
+.email{
+    display:flex;
+}
+.loc{
+    display:flex;
 }
