@@ -342,6 +342,7 @@ ion-icon {
 .mainfoot{
 
     display:flex;
+    justify-content: space-between;
     margin-top:50px;
     /* justify-content: space-between; */
 }
@@ -357,4 +358,12 @@ ion-icon {
 }
 .loc{
     display:flex;
+}
+.last{
+    background-color: #308d46;
+    color:#fff;
+}
+.com>h6{
+    font-size: 14px;
+    color:#308d46;
 }
