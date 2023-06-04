@@ -343,27 +343,60 @@ ion-icon {
 
     display:flex;
     justify-content: space-between;
-    margin-top:50px;
+    margin:50px 0px;
+    
     /* justify-content: space-between; */
 }
 .logohead{
     display:flex;
+    
+}
+.logohead>p{
+    font-size: 30px;
+    color:black;
+    font-weight: 500;
 }
 
 .logohead>img{
-    width:40px;
+    width:70px;
+    margin-right:20px;
 }
 .email{
     display:flex;
+    margin:10px 0px;
+    font-size: 14px;
+    color:#090c10;
+}
+.email>ion-icon{
+    color:#308d46;
 }
 .loc{
     display:flex;
+    margin-top:10px;
+    font-size: 14px;
+    color:#090c10;
+}
+.loc>ion-icon{
+    color:#308d46;
 }
 .last{
     background-color: #308d46;
     color:#fff;
 }
-.com>h6{
-    font-size: 14px;
-    color:#308d46;
+.com>h7{
+    font-size: 16px;
+    color: #308d46;
+    font-weight: 600;
+    padding: 5px;
+}
+.com>p{
+    font-size:13px;
+    color:#090c10;
+    font-weight: 500;
+    padding:5px;
+}
+.last{
+    padding:10px 30px;
+    font-weight:500;
+    font-size: 16px;
 }
