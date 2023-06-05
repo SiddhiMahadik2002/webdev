@@ -1,249 +1,236 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 35px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 35px;
 }
 
 .menu {
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
-.menu>p {
-    padding: 12px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
+.menu > p {
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .info {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.logo >img{
-   display:flex;
-   justify-content: center;
-   align-items: center;
-    width:70px;
+.logo > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
 }
 
 ion-icon {
-    font-size: 18px;
-    align-items: center;
-    margin-right: 15px;
-    cursor: pointer
+  font-size: 18px;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
 }
 
 .btn {
-    padding: 11px 21px;
-    background: #273239 !important;
-    color: #fff !important;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 11px 21px;
+  background: #273239 !important;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .main {
-    background: rgb(144, 218, 162);
-    background: linear-gradient(180deg, rgba(144, 218, 162, 1) 0%, rgba(255, 255, 255, 1) 100%);
-
-
+  background: rgb(144, 218, 162);
+  background: linear-gradient(
+    180deg,
+    rgba(144, 218, 162, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .heroarea {
-
-    display: flex;
-    justify-content: space-around;
-    padding: 28px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  padding: 28px 0px 0px;
 }
 
 .left {
-    padding: 5px;
-
+  padding: 5px;
 }
 
-.left>.head {
-
-    font-size: 28px;
-    font-weight: 600;
+.left > .head {
+  font-size: 28px;
+  font-weight: 600;
 }
 
-.left>.head2 {
-    font-size: 16px;
-    color: #00000099
+.left > .head2 {
+  font-size: 16px;
+  color: #00000099;
 }
 
 .right {
-    display: flex;
-    align-items: center;
-    width: 40%;
+  display: flex;
+  align-items: center;
+  width: 40%;
 }
 
-.right>input {
-    width: 100%;
-    padding: 10px 15px;
-    border: none;
-    font-family: poppins;
-    font-size: 14px;
-    outline: none;
+.right > input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  font-family: poppins;
+  font-size: 14px;
+  outline: none;
 }
 
-.right>button {
-    width: 10%;
-    padding: 10px 15px;
-    border: none;
-    font-family: poppins;
-    font-size: 14px;
-    font-weight: 500;
-    outline: none;
-    color: white;
-    background-color: #35864ab0;
-    cursor: pointer;
-
+.right > button {
+  width: 10%;
+  padding: 10px 15px;
+  border: none;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  color: white;
+  background-color: #35864ab0;
+  cursor: pointer;
 }
 
 .cardsarea {
-    padding: 20px 40px;
-    height: 450px;
-    width: 90%;
-    margin: auto;
-    background-color: white;
-    margin-top: 20px;
+  padding: 20px 40px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  margin-top: 20px;
 }
 
-
 .blogmain {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
 }
 
 .div1 {
-    padding: 14px;
-    font-size: 22px;
-    font-weight: 600;
+  padding: 14px;
+  font-size: 22px;
+  font-weight: 600;
 }
-
 
 .card {
-    border: 1px solid rgb(222, 222, 222);
-    border-radius: 10px;
-    cursor: pointer;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 10px;
+  cursor: pointer;
 }
-
 
 .innerdiv1 {
-    width: 100%;
-
+  width: 100%;
 }
 
-.innerdiv1>img {
-    width: 100%;
-    height: 150px;
-    border-radius: 5px 5px 0px 0px;
+.innerdiv1 > img {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .innerdiv2 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    margin: 10px;
-    font-size: 12px;
+  margin: 10px;
+  font-size: 12px;
 }
 
-.trend>p>ion-icon {
-    font-size: 15px;
-    color: green;
+.trend > p > ion-icon {
+  font-size: 15px;
+  color: green;
 }
 
 .trend {
-    color: grey;
-    display: flex;
-    align-items: center;
+  color: grey;
+  display: flex;
+  align-items: center;
 }
 
 .ratingBox {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid rgb(222, 222, 222);
-    padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(222, 222, 222);
+  padding: 5px;
 }
 
 .innerdiv3 {
-    margin: 14px 10px;
-    font-size: 16px;
+  margin: 14px 10px;
+  font-size: 16px;
 }
 
 .innerdiv4 {
-    align-items: center;
-    margin: 10px 0px 40px 10px;
-    font-size: 12px;
-    color: grey;
+  align-items: center;
+  margin: 10px 0px 40px 10px;
+  font-size: 12px;
+  color: grey;
 }
 
-
-
 .innerdiv5 {
-
-    padding: 16px 8px 25px 8px;
-    background: rgba(128, 185, 142, .08);
+  padding: 16px 8px 25px 8px;
+  background: rgba(128, 185, 142, 0.08);
 }
 
 .pricing {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
 
-    font-size: 18px;
-    font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.ratingBox>ion-icon {
-    font-size: 12px;
-    color: orange;
+.ratingBox > ion-icon {
+  font-size: 12px;
+  color: orange;
 }
 
-.ratingBox>p {
-    font-size: 12px;
+.ratingBox > p {
+  font-size: 12px;
 }
 
-.pricing>p>strike {
-    font-size: 12px;
-    color: grey;
-    font-weight: 400;
-    margin-left: 5px;
+.pricing > p > strike {
+  font-size: 12px;
+  color: grey;
+  font-weight: 400;
+  margin-left: 5px;
 }
 
-.innerdiv5>.pricing>button {
-    padding: 7px 16px;
-    font-size: 10px;
-    color: #21ba45;
-    background: whitesmoke;
-    font-weight: 800;
-    box-shadow: inset 0 0 0 1px #21ba45 !important;
-    border: none;
-    border-radius: 5px;
+.innerdiv5 > .pricing > button {
+  padding: 7px 16px;
+  font-size: 10px;
+  color: #21ba45;
+  background: whitesmoke;
+  font-weight: 800;
+  box-shadow: inset 0 0 0 1px #21ba45 !important;
+  border: none;
+  border-radius: 5px;
 }
-
 
 /* course category */
 .cardsarea2 {
@@ -251,152 +238,154 @@ ion-icon {
 }
 
 .cards2 {
-    margin-top: 10px;
-    padding:0px 14px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 15px;
-
+  margin-top: 10px;
+  padding: 0px 14px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
 }
-.common{
-    display: flex;
-    align-items: center; 
-    padding: 14px 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
+.common {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .image {
-    width: 30px;
-
+  width: 30px;
 }
 
 .topic {
-    padding-left: 18px;
-    color: #fff;
-    font-weight: 600;
+  padding-left: 18px;
+  color: #fff;
+  font-weight: 600;
 }
 
 .indiv1 {
-   background-color: #eea2a0;
+  background-color: #eea2a0;
 }
 
-
-.indiv2{
-    background-color:#227093;
+.indiv2 {
+  background-color: #227093;
 }
-.indiv3{
-    background-color:#71aa59b6;
+.indiv3 {
+  background-color: #71aa59b6;
 }
-.indiv4{
-    background-color: #71869a;
+.indiv4 {
+  background-color: #71869a;
 }
-.indiv5{
-    background-color: #566c85e1;
+.indiv5 {
+  background-color: #566c85e1;
 }
-.indiv6{
-    background-color: #0b6366cc;
+.indiv6 {
+  background-color: #0b6366cc;
 }
-.indiv7{
-    background-color:#8c67a7a8;
+.indiv7 {
+  background-color: #8c67a7a8;
 }
-.indiv8{
-    background-color: #f7a968f3;
+.indiv8 {
+  background-color: #f7a968f3;
 }
 
 /* self placed */
-.cardsarea3{
-    margin-top: 30px;
+.cardsarea3 {
+  margin-top: 30px;
 }
 
 /*  live courses 
- */ 
- .cardsarea4{
-    margin-top: 30px;
+ */
+.cardsarea4 {
+  margin-top: 30px;
 }
 
 /* free course */
-.cardsarea5{
-    margin-top: 30px;
+.cardsarea5 {
+  margin-top: 30px;
 }
 
 /* card img */
-.blogmainimg{
-        
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 25px;
-        grid-row-gap: 25px;
-        margin:20px;
+.blogmainimg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin: 20px;
 }
 
-.cardimg>img{
-    width:100%;
-    border-radius: 10px;
+.cardimg > img {
+  width: 100%;
+  border-radius: 10px;
 }
 /* footer */
-.mainfoot{
+.mainfoot {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
 
-    display:flex;
-    justify-content: space-between;
-    margin:50px 0px;
-    
-    /* justify-content: space-between; */
+  /* justify-content: space-between; */
 }
-.logohead{
-    display:flex;
-    
+.logohead {
+  display: flex;
 }
-.logohead>p{
-    font-size: 30px;
-    color:black;
-    font-weight: 500;
+.logohead > p {
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
 }
 
-.logohead>img{
-    width:70px;
-    margin-right:20px;
+.logohead > img {
+  width: 70px;
+  margin-right: 20px;
 }
-.email{
-    display:flex;
-    margin:10px 0px;
-    font-size: 14px;
-    color:#090c10;
+.email {
+  display: flex;
+  margin: 10px 0px;
+  font-size: 14px;
+  color: #090c10;
 }
-.email>ion-icon{
-    color:#308d46;
+.email > ion-icon {
+  color: #308d46;
 }
-.loc{
-    display:flex;
-    margin-top:10px;
-    font-size: 14px;
-    color:#090c10;
+.loc {
+  display: flex;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #090c10;
 }
-.loc>ion-icon{
-    color:#308d46;
+.loc > ion-icon {
+  color: #308d46;
 }
-.last{
-    background-color: #308d46;
-    color:#fff;
+.last {
+  background-color: #308d46;
+  color: #fff;
 }
-.com>h7{
-    font-size: 16px;
-    color: #308d46;
-    font-weight: 600;
-    padding: 5px;
+.com > h7 {
+  font-size: 16px;
+  color: #308d46;
+  font-weight: 600;
+  padding: 5px;
 }
-.com>p{
-    font-size:13px;
-    color:#090c10;
-    font-weight: 500;
-    padding:5px;
+.com > p {
+  font-size: 13px;
+  color: #090c10;
+  font-weight: 500;
+  padding: 5px;
 }
-.last{
-    padding:10px 30px;
-    font-weight:500;
-    font-size: 16px;
+.last {
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.newDiv {
+  padding: 0px 75px;
+
+  background-color: white;
+  position: relative;
+  top: -21px;
 }
