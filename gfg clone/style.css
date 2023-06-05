@@ -173,10 +173,11 @@ ion-icon {
 
 .ratingBox {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   border: 1px solid rgb(222, 222, 222);
   padding: 5px;
+  border-radius: 5px;
 }
 
 .innerdiv3 {
@@ -196,6 +197,16 @@ ion-icon {
   background: rgba(128, 185, 142, 0.08);
 }
 
+.innerdiv1 > p, .innerdiv2 > p, .innerdiv3 > p, .innerdiv4 > p, .trend > p{
+  display: flex;
+  align-items: center;
+}
+
+.innerdiv1 > p > ion-icon, .innerdiv2 > p > ion-icon, .innerdiv3 > p > ion-icon, .innerdiv4 > p > ion-icon, .trend > p > ion-icon{
+  position: relative;
+  /* right: -10px; */
+}
+
 .pricing {
   display: flex;
   justify-content: space-between;
@@ -207,6 +218,7 @@ ion-icon {
 
 .ratingBox > ion-icon {
   font-size: 12px;
+  margin-right: 3px;
   color: orange;
 }
 
@@ -325,7 +337,7 @@ ion-icon {
 .mainfoot {
   display: flex;
   justify-content: space-between;
-  margin: 50px 0px;
+  margin: 35px;
 
   /* justify-content: space-between; */
 }
